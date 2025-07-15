@@ -1,0 +1,10 @@
+# robots.txt zu http://siun.one/
+
+User-agent: *
+Disallow: /
+
+User-agent: google
+Allow: /
+Disallow: /css/
+Disallow: /js/
+Disallow: /assets/

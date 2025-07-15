@@ -1,0 +1,28 @@
+.skills {
+  display: grid;
+  grid-gap: 15px;
+
+  @media screen and (min-width: 576px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  @media screen and (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  &__item {
+    display: flex;
+    justify-content: center;
+  }
+  
+  canvas {
+    width: 200px;
+    height: 200px;
+  }
+  
+  figcaption {
+    margin-top: 10px;
+    font-weight: 500;
+    text-align: center;
+  }
+}
